@@ -1,0 +1,15 @@
+{
+    "display_name": "MGB Local Time In Response",
+    "loading_order": 50,
+    "requires": [],
+    "optional": [
+        "localtimeinresponse"
+    ],
+    "js": "index.js",
+    "css": "style.css",
+    "author": "MGB",
+    "generate_interceptor": "LocalTimeInResponse_Intercept",
+    "version": "1.2.0",
+    "homePage": "",
+    "auto_update": false
+}

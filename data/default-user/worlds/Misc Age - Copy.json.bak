@@ -1,0 +1,676 @@
+{
+    "entries": {
+        "0": {
+            "uid": 0,
+            "key": [],
+            "keysecondary": [],
+            "comment": "Misc Age Laura Stein",
+            "content": "\n------ [ {{mgbchosedataonename}} ] ------\n\n\n",
+            "constant": true,
+            "vectorized": false,
+            "selective": true,
+            "selectiveLogic": 0,
+            "addMemo": true,
+            "order": 100,
+            "position": 1,
+            "disable": false,
+            "excludeRecursion": true,
+            "preventRecursion": true,
+            "delayUntilRecursion": false,
+            "probability": 100,
+            "useProbability": true,
+            "depth": 4,
+            "group": "",
+            "groupOverride": false,
+            "groupWeight": 100,
+            "scanDepth": null,
+            "caseSensitive": null,
+            "matchWholeWords": null,
+            "useGroupScoring": null,
+            "automationId": "",
+            "role": null,
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "displayIndex": 0,
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": [
+                    "aeb903b1-98e1-4be4-9bf8-132283170f52"
+                ]
+            },
+            "characterFilterTwo": {
+                "isExclude": true,
+                "names": [],
+                "tags": [
+                    "83677cbf-e51e-4f18-a160-b51fa1a5547d"
+                ]
+            }
+        },
+        "1": {
+            "uid": 1,
+            "key": [],
+            "keysecondary": [],
+            "comment": "Misc Age Cora Stein",
+            "content": "\n------ [ {{mgbchosedatatwoname}} ] ------\n",
+            "constant": true,
+            "vectorized": false,
+            "selective": true,
+            "selectiveLogic": 0,
+            "addMemo": true,
+            "order": 100,
+            "position": 1,
+            "disable": false,
+            "excludeRecursion": true,
+            "preventRecursion": true,
+            "delayUntilRecursion": false,
+            "probability": 100,
+            "useProbability": true,
+            "depth": 4,
+            "group": "",
+            "groupOverride": false,
+            "groupWeight": 100,
+            "scanDepth": null,
+            "caseSensitive": null,
+            "matchWholeWords": null,
+            "useGroupScoring": null,
+            "automationId": "",
+            "role": null,
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "displayIndex": 0,
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": [
+                    "b65a0cf3-b360-407a-b368-09f64e82d284"
+                ]
+            },
+            "characterFilterTwo": {
+                "isExclude": true,
+                "names": [],
+                "tags": [
+                    "91840227-afbc-40e5-b247-e9b901ed81c2"
+                ]
+            }
+        },
+        "2": {
+            "uid": 2,
+            "key": [],
+            "keysecondary": [],
+            "comment": "Misc Age User First Trimester Announcement",
+            "content": "\n------ [ {{user}} is in the First Trimester of Pregnancy ] ------\n\n",
+            "constant": true,
+            "vectorized": false,
+            "selective": true,
+            "selectiveLogic": 0,
+            "addMemo": true,
+            "order": 100,
+            "position": 1,
+            "disable": false,
+            "excludeRecursion": true,
+            "preventRecursion": true,
+            "delayUntilRecursion": false,
+            "probability": 100,
+            "useProbability": true,
+            "depth": 4,
+            "group": "",
+            "groupOverride": false,
+            "groupWeight": 100,
+            "scanDepth": null,
+            "caseSensitive": null,
+            "matchWholeWords": null,
+            "useGroupScoring": null,
+            "automationId": "",
+            "role": null,
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "displayIndex": 2,
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": [
+                    "5b56a8d2-cf6a-487e-bccb-d74f6eb6b81d"
+                ]
+            },
+            "characterFilterTwo": {
+                "isExclude": true,
+                "names": [],
+                "tags": [
+                    "739f7c5e-4164-4262-8fa1-572b1bdd3743"
+                ]
+            }
+        },
+        "3": {
+            "uid": 3,
+            "key": [],
+            "keysecondary": [],
+            "comment": "Misc Age User Second Trimester Announcement",
+            "content": "\n------ [ {{user}} is in the Second Trimester of Pregnancy ] ------\n\n",
+            "constant": true,
+            "vectorized": false,
+            "selective": true,
+            "selectiveLogic": 0,
+            "addMemo": true,
+            "order": 100,
+            "position": 1,
+            "disable": false,
+            "excludeRecursion": true,
+            "preventRecursion": true,
+            "delayUntilRecursion": false,
+            "probability": 100,
+            "useProbability": true,
+            "depth": 4,
+            "group": "",
+            "groupOverride": false,
+            "groupWeight": 100,
+            "scanDepth": null,
+            "caseSensitive": null,
+            "matchWholeWords": null,
+            "useGroupScoring": null,
+            "automationId": "",
+            "role": null,
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "displayIndex": 3,
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": [
+                    "90f4340b-e48a-494e-ac88-defb637217b7"
+                ]
+            },
+            "characterFilterTwo": {
+                "isExclude": true,
+                "names": [],
+                "tags": [
+                    "b1737e88-f96d-4ea9-8ac2-9127ac6e9a72"
+                ]
+            }
+        },
+        "4": {
+            "uid": 4,
+            "key": [],
+            "keysecondary": [],
+            "comment": "Misc Age User Third Trimester Announcement",
+            "content": "\n------ [ {{user}} is in the Third Trimester of Pregnancy ] ------\n\n",
+            "constant": true,
+            "vectorized": false,
+            "selective": true,
+            "selectiveLogic": 0,
+            "addMemo": true,
+            "order": 100,
+            "position": 1,
+            "disable": false,
+            "excludeRecursion": true,
+            "preventRecursion": true,
+            "delayUntilRecursion": false,
+            "probability": 100,
+            "useProbability": true,
+            "depth": 4,
+            "group": "",
+            "groupOverride": false,
+            "groupWeight": 100,
+            "scanDepth": null,
+            "caseSensitive": null,
+            "matchWholeWords": null,
+            "useGroupScoring": null,
+            "automationId": "",
+            "role": null,
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "displayIndex": 4,
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": [
+                    "b457f94e-be01-4a83-8484-656941c6948d"
+                ]
+            },
+            "characterFilterTwo": {
+                "isExclude": true,
+                "names": [],
+                "tags": [
+                    "da248183-03c4-4ab2-85bc-ec65ca8bbec7"
+                ]
+            }
+        },
+        "5": {
+            "uid": 5,
+            "key": [],
+            "keysecondary": [],
+            "comment": "Misc Age Hubert Brothers Residence Suzanna",
+            "content": "------ Begin Additional Info About the Hubert Family ------\n\nAndreas Hubert:\n- is the eldest Hubert sibling\n- Lives in a spacious modern home at Obermenzing, Oneginstraße 18a, 81247 München, Germany\n- is married to a French woman named Benedict (Bennie)\n- has a teenage daughter(Jenn) and son (Christopher)\n- drives a dark blue BMW 7 series sedan\n\nClaudia Hubert:\n- is the 2nd oldest Hubert sibling\n- lives in Pasing, München, Germany, near their mother\n- is a single mother of a teenage son (Raphael)\n\nStefan J. Stein (geb. Hubert):\n- is the 3rd oldest Hubert sibling\n- lives in a well furnished modern apartment at Elisabethplatz, Bauerstraße 4, 80796 München, Germany\n  - Stefan purchased this condo in 2014, prior to his marriage to Suzanna\n- is married to Suzanna Stein\n  - legal ceremony April 29th, 2016\n  - formal ceremony September 3rd, 2016 Wildschönau Austria\n- has two daughters (Laura and Cora)\n- uses public transit, walking, and bicycle as his preferred method of transportation\n- transports his daughter's back and forth to school using a front loading cargo bike\n- owns a BMW Mini that stays parked in the west side enclosed lot of the property\n\nMarcus Hubert:\n- is the youngest Hubert sibling\n- lives in a well furnished modern apartment at Elisabethplatz, Bauerstraße 4, 80796 München, Germany\n- is engaged to Danielle, a beautiful woman who is also born and raised in Munich.\n- uses public transit, walking, and bicycle as his preferred method of transportation\n\nNotable Mentions:\n- Margit and Helmut had a strained relationship throughout most of their years of marriage\n  - Helmut would often travel to the Middle East and stay gone for up to two months at a time, particularly to Turkey\n  - Margit was not affected as heavily by Helmut's passing due to so much time already having been spent on her own\n\n- There is noticeable strain within Andreas and Benedict's marriage, it is already at the point of a potential separation\n\n- Claudia has a teenage son who was born to a Spaniard out of wedlock\n  - Due to this, and the fact that Claudia spoils her son incessantly, Margit involves herself very heavily in Claudia's affairs\n  - Claudia has reached a point that she is fed up with this intrusion in her life by her mother\n\n------ End Additional Info About the Hubert Family ------\n\n",
+            "constant": true,
+            "vectorized": false,
+            "selective": true,
+            "selectiveLogic": 0,
+            "addMemo": true,
+            "order": 100,
+            "position": 4,
+            "disable": false,
+            "excludeRecursion": true,
+            "preventRecursion": true,
+            "delayUntilRecursion": false,
+            "probability": 100,
+            "useProbability": true,
+            "depth": 10,
+            "group": "",
+            "groupOverride": false,
+            "groupWeight": 100,
+            "scanDepth": null,
+            "caseSensitive": null,
+            "matchWholeWords": null,
+            "useGroupScoring": null,
+            "automationId": "",
+            "role": 0,
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "displayIndex": 5,
+            "characterFilterTwo": {
+                "isExclude": true,
+                "names": [],
+                "tags": [
+                    "152e3e0d-7908-4d83-9d9e-96889f3f2184"
+                ]
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": [
+                    "91af90bd-7a6c-41cf-bb4e-ed7bac75f04e"
+                ]
+            }
+        },
+        "6": {
+            "uid": 6,
+            "key": [],
+            "keysecondary": [],
+            "comment": "Misc Age Hubert Brothers Residence Divorced",
+            "content": "------ Begin Additional Info About the Hubert Family ------\n\nAndreas Hubert:\n- is the eldest Hubert sibling\n- Lives in a spacious modern home at Obermenzing, Oneginstraße 18a, 81247 München, Germany\n- is married to a French woman named Benedict (Bennie)\n- has a teenage daughter(Jenn) and son (Christopher)\n- drives a dark blue BMW 7 series sedan\n\nClaudia Hubert:\n- is the 2nd oldest Hubert sibling\n- lives in Pasing, München, Germany, near their mother\n- is a single mother of a teenage son (Raphael)\n\nStefan Hubert:\n- is the 3rd oldest Hubert sibling\n- lives in a well furnished modern apartment at Elisabethplatz, Bauerstraße 4, 80796 München, Germany\n- has two daughters from his previous marriage to Suzanna Stein (Laura and Cora)\n- uses public transit, walking, and bicycle as his preferred method of transportation\n- transports his daughter's back and forth to school using a front loading cargo bike\n- owns a BMW Mini that stays parked in the west side enclosed lot of the property\n\nMarcus Hubert:\n- is the youngest Hubert sibling\n- lives in a well furnished modern apartment at Elisabethplatz, Bauerstraße 4, 80796 München, Germany\n- is engaged to Danielle, a beautiful woman who is also born and raised in Munich.\n- uses public transit, walking, and bicycle as his preferred method of transportation\n\nNotable Mentions:\n- Margit and Helmut had a strained relationship throughout most of their years of marriage\n  - Helmut would often travel to the Middle East and stay gone for up to two months at a time, particularly to Turkey\n  - Margit was not affected as heavily by Helmut's passing due to so much time already having been spent on her own\n\n- There is noticeable strain within Andreas and Benedict's marriage, it is already at the point of a potential separation\n\n- Claudia has a teenage son who was born to a Spaniard out of wedlock\n  - Due to this, and the fact that Claudia spoils her son incessantly, Margit involves herself very heavily in Claudia's affairs\n  - Claudia has reached a point that she is fed up with this intrusion in her life by her mother\n\n------ End Additional Info About the Hubert Family ------\n",
+            "constant": true,
+            "vectorized": false,
+            "selective": true,
+            "selectiveLogic": 0,
+            "addMemo": true,
+            "order": 100,
+            "position": 4,
+            "disable": false,
+            "excludeRecursion": true,
+            "preventRecursion": true,
+            "delayUntilRecursion": false,
+            "probability": 100,
+            "useProbability": true,
+            "depth": 10,
+            "group": "",
+            "groupOverride": false,
+            "groupWeight": 100,
+            "scanDepth": null,
+            "caseSensitive": null,
+            "matchWholeWords": null,
+            "useGroupScoring": null,
+            "automationId": "",
+            "role": 0,
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "displayIndex": 5,
+            "characterFilterTwo": {
+                "isExclude": true,
+                "names": [],
+                "tags": [
+                    "152e3e0d-7908-4d83-9d9e-96889f3f2184"
+                ]
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": [
+                    "093049dd-c963-4479-95bb-f4813631d621"
+                ]
+            }
+        },
+        "7": {
+            "uid": 7,
+            "key": [],
+            "keysecondary": [],
+            "comment": "Misc Age Hubert Brothers Residence User",
+            "content": "------ Begin Additional Info About the Hubert Family ------\n\nAndreas Hubert:\n- is the eldest Hubert sibling\n- Lives in a spacious modern home at Obermenzing, Oneginstraße 18a, 81247 München, Germany\n- is married to a French woman named Benedict (Bennie)\n- has a teenage daughter(Jenn) and son (Christopher)\n- drives a dark blue BMW 7 series sedan\n\nClaudia Hubert:\n- is the 2nd oldest Hubert sibling\n- lives in Pasing, München, Germany, near their mother\n- is a single mother of a teenage son (Raphael)\n\nStefan Hubert:\n- is the 3rd oldest Hubert sibling\n- lives in a well furnished modern apartment at Elisabethplatz, Bauerstraße 4, 80796 München, Germany\n- is married to {{user}}\n- has two daughters from his previous marriage to Suzanna Stein (Laura and Cora)\n- has two adult step-daughters from his marriage to {{user}} (Renee and Kayla)\n- uses public transit, walking, and bicycle as his preferred method of transportation\n- transports his daughter's back and forth to school using a front loading cargo bike\n- owns a BMW Mini that stays parked in the west side enclosed lot of the property\n\nMarcus Hubert:\n- is the youngest Hubert sibling\n- lives in a well furnished modern apartment at Elisabethplatz, Bauerstraße 4, 80796 München, Germany\n- is engaged to Danielle, a beautiful woman who is also born and raised in Munich.\n- uses public transit, walking, and bicycle as his preferred method of transportation\n\nNotable Mentions:\n- Margit and Helmut had a strained relationship throughout most of their years of marriage\n  - Helmut would often travel to the Middle East and stay gone for up to two months at a time, particularly to Turkey\n  - Margit was not affected as heavily by Helmut's passing due to so much time already having been spent on her own\n\n- There is noticeable strain within Andreas and Benedict's marriage, it is already at the point of a potential separation\n\n- Claudia has a teenage son who was born to a Spaniard out of wedlock\n  - Due to this, and the fact that Claudia spoils her son incessantly, Margit involves herself very heavily in Claudia's affairs\n  - Claudia has reached a point that she is fed up with this intrusion in her life by her mother\n\n------ End Additional Info About the Hubert Family ------\n",
+            "constant": true,
+            "vectorized": false,
+            "selective": true,
+            "selectiveLogic": 0,
+            "addMemo": true,
+            "order": 100,
+            "position": 4,
+            "disable": false,
+            "excludeRecursion": true,
+            "preventRecursion": true,
+            "delayUntilRecursion": false,
+            "probability": 100,
+            "useProbability": true,
+            "depth": 10,
+            "group": "",
+            "groupOverride": false,
+            "groupWeight": 100,
+            "scanDepth": null,
+            "caseSensitive": null,
+            "matchWholeWords": null,
+            "useGroupScoring": null,
+            "automationId": "",
+            "role": 0,
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "displayIndex": 5,
+            "characterFilterTwo": {
+                "isExclude": true,
+                "names": [],
+                "tags": [
+                    "152e3e0d-7908-4d83-9d9e-96889f3f2184"
+                ]
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": [
+                    "8407a4b0-5fb7-41c0-ad2b-a3b6558263db"
+                ]
+            }
+        },
+        "8": {
+            "uid": 8,
+            "key": [],
+            "keysecondary": [],
+            "comment": "Misc Age Stefan Melissa Schedule",
+            "content": "------ Begin Details of Items Open for Stefan and Melissa Hubert ------\n\n• Need to decide on the following for Melissa's two show cars in the States ('95 Mustang GT Convertible, '89 Dodge Daytona Shelby Turbo)\n  - Where to store the vehicles\n  - Do they meet EU standards for import / or are there exceptions for 'classic' cars\n  - Possible plan for continued storage in the States, or option to sell\n• Need to decide on possible selling details for Melissa's '99 Ram truck in the States\n\n------ End Details of Items Open for Stefan and Melissa Hubert  ------\n\n------ Begin Details from Stefan and Melissa Hubert's Calendar ------\n\n• Tuesday March 31st, 2026 - 08:00 CET - Dr. Harris / Melissa, Stefan\n\n------ End Details from Stefan and Melissa Hubert's Calendar ------\n\n",
+            "constant": true,
+            "vectorized": false,
+            "selective": true,
+            "selectiveLogic": 0,
+            "addMemo": true,
+            "order": 100,
+            "position": 4,
+            "disable": false,
+            "excludeRecursion": true,
+            "preventRecursion": true,
+            "delayUntilRecursion": false,
+            "probability": 100,
+            "useProbability": true,
+            "depth": 10,
+            "group": "",
+            "groupOverride": false,
+            "groupWeight": 100,
+            "scanDepth": null,
+            "caseSensitive": null,
+            "matchWholeWords": null,
+            "useGroupScoring": null,
+            "automationId": "",
+            "role": 0,
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "displayIndex": 8,
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": [
+                    "df9d3aff-9685-42fb-aed2-94a9b7ff5f28"
+                ]
+            },
+            "characterFilterTwo": {
+                "isExclude": true,
+                "names": [],
+                "tags": [
+                    "bb4e8e96-ff40-4e8d-8b1e-63cd3770f8d3"
+                ]
+            }
+        },
+        "9": {
+            "uid": 9,
+            "key": [],
+            "keysecondary": [],
+            "comment": "Misc Age Hubert Brothers Residence Polygamy",
+            "content": "------ Begin Additional Info About the Hubert Family ------\n\nAndreas Hubert:\n- is the eldest Hubert sibling\n- Lives in a spacious modern home at Obermenzing, Oneginstraße 18a, 81247 München, Germany\n- is married to a French woman named Benedict (Bennie)\n- has a teenage daughter(Jenn) and son (Christopher)\n- drives a dark blue BMW 7 series sedan\n\nClaudia Hubert:\n- is the 2nd oldest Hubert sibling\n- lives in Pasing, München, Germany, near their mother\n- is a single mother of a teenage son (Raphael)\n\nStefan J. Stein (geb. Hubert):\n- is the 3rd oldest Hubert sibling\n- lives in a well furnished modern apartment at Elisabethplatz, Bauerstraße 4, 80796 München, Germany\n  - Stefan purchased this condo in 2014, prior to his marriage to Suzanna\n- is the head of household in a polyamorous marriage (legally - domestic three-way partnership)\n- is married to Suzanna Stein (since April 29th, 2016)\n- is married to {{user}} (since Oct 1st, 2024)\n- has two daughters (Laura and Cora m. Suzanna Stein)\n- has two step-daughters (Renee and Kayla m. {{user}})\n- uses public transit, walking, and bicycle as his preferred method of transportation\n- transports his daughter's back and forth to school using a front loading cargo bike\n- owns a BMW Mini that stays parked in the west side enclosed lot of the property\n\nMarcus Hubert:\n- is the youngest Hubert sibling\n- lives in a well furnished modern apartment at Elisabethplatz, Bauerstraße 4, 80796 München, Germany\n- is engaged to Danielle, a beautiful woman who is also born and raised in Munich.\n- uses public transit, walking, and bicycle as his preferred method of transportation\n\nNotable Mentions:\n- Margit and Helmut had a strained relationship throughout most of their years of marriage\n  - Helmut would often travel to the Middle East and stay gone for up to two months at a time, particularly to Turkey\n  - Margit was not affected as heavily by Helmut's passing due to so much time already having been spent on her own\n\n- There is noticeable strain within Andreas and Benedict's marriage, it is already at the point of a potential separation\n\n- Claudia has a teenage son who was born to a Spaniard out of wedlock\n  - Due to this, and the fact that Claudia spoils her son incessantly, Margit involves herself very heavily in Claudia's affairs\n  - Claudia has reached a point that she is fed up with this intrusion in her life by her mother\n\n------ End Additional Info About the Hubert Family ------\n",
+            "constant": true,
+            "vectorized": false,
+            "selective": true,
+            "selectiveLogic": 0,
+            "addMemo": true,
+            "order": 100,
+            "position": 4,
+            "disable": false,
+            "excludeRecursion": true,
+            "preventRecursion": true,
+            "delayUntilRecursion": false,
+            "probability": 100,
+            "useProbability": true,
+            "depth": 10,
+            "group": "",
+            "groupOverride": false,
+            "groupWeight": 100,
+            "scanDepth": null,
+            "caseSensitive": null,
+            "matchWholeWords": null,
+            "useGroupScoring": null,
+            "automationId": "",
+            "role": 0,
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "displayIndex": 5,
+            "characterFilterTwo": {
+                "isExclude": true,
+                "names": [],
+                "tags": [
+                    "152e3e0d-7908-4d83-9d9e-96889f3f2184"
+                ]
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": [
+                    "9a1408d1-c73b-45a9-ac4c-5c42715ef079"
+                ]
+            }
+        },
+        "10": {
+            "uid": 10,
+            "key": [],
+            "keysecondary": [],
+            "comment": "Misc Age Klaus Diskret Kunstwerk",
+            "content": "------ Begin Diskret Kunstwerk Client Commission Details ------\n\nClient Name: Stefan Stein\n\nDescription of Request: client wishes to commission a custom replica of their erect anatomy for use in a harness by his wife, Melissa. The replica is intended to be used in intercourse on the client's other wife, Suzanna. Melissa, would like to inquire about potential modifications once the initial mold, or scans, of Stefan's anatomy have been obtained. Melissa would like to potentially modify or alter replica to be slightly 'different' than Stefan's anatomy and would like consultation on their options. \n\nThe client has specified that the finished replica be as real to life as possible. \n\nCurrent Physical Description of Client: \n- Tall, about 1.9 meters (6ft 3in), and fit, with a sturdy build from years of an active lifestyle\n- Short brown hair, warm blue eyes, and handsomely attractive, clean shaven, facial features\n- Anatomical measurements 7.5 inches in length and 5.1 inches in circumference when in a state of arousal. He is uncircumcised, retaining his foreskin, and endowed to absolute perfection with no noticeable curvatures or abnormalities.\n\n------ End Diskret Kunstwerk Client Commission Details ------",
+            "constant": true,
+            "vectorized": false,
+            "selective": true,
+            "selectiveLogic": 0,
+            "addMemo": true,
+            "order": 100,
+            "position": 1,
+            "disable": false,
+            "excludeRecursion": true,
+            "preventRecursion": true,
+            "delayUntilRecursion": false,
+            "probability": 100,
+            "useProbability": true,
+            "depth": 4,
+            "group": "",
+            "groupOverride": false,
+            "groupWeight": 100,
+            "scanDepth": null,
+            "caseSensitive": null,
+            "matchWholeWords": null,
+            "useGroupScoring": null,
+            "automationId": "",
+            "role": null,
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "displayIndex": 10,
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": [
+                    "c8531124-4f6b-4090-b092-b91410478d00"
+                ]
+            },
+            "characterFilterTwo": {
+                "isExclude": true,
+                "names": [],
+                "tags": [
+                    "5b1ce99f-5af0-42c2-88b7-cef8cf442c56"
+                ]
+            }
+        },
+        "11": {
+            "uid": 11,
+            "key": [],
+            "keysecondary": [],
+            "comment": "Misc Age Stefan Persona Growth Proud Confident",
+            "content": "------ Begin Character Growth Details - Stefan ------\n\nCHARACTER GROWTH OVERVIEW - STEFAN J. STEIN (geb. HUBERT)\n\nCORE IDENTITY & BACKGROUND:\n• Born and raised in Munich, Germany\n• Age 40, third eldest of Hubert siblings\n• Took wife Suzanna's surname upon marriage in 2016\n• Lives in modern apartment at Elisabethplatz with wife Suzanna\n• Father to Laura and Cora (with Suzanna)\n• Maintains close relationships with siblings Andreas, Claudia, and Marcus\n\nPHYSICAL CHARACTERISTICS:\n• Tall (1.9m/6'3\"), athletic build\n• Short brown hair, striking blue eyes\n• Natural authority in bearing and presence\n• Strong, gentle hands reflecting dual nature\n• Right hand injury from a quarrel in university years affects ring and pinky fingers\n• Anatomically well-endowed (7.5in length, 5.1in circumference, uncircumcised)\n\nPERSONALITY TRAITS:\n• ISFJ personality type\n• Natural leader with protective instincts\n• Deeply emotional but controlled in expression\n• Possesses rare ability to form soul-deep connections\n• Values family above all else\n• Balances traditional values with modern perspectives\n• Demonstrates strong loyalty to those he loves\n• Shows vulnerability only to closest family members\n• Maintains strong German reserve in public settings\n• Struggles with allowing others to see through his careful control\n• Polite and engaging host\n• Shows genuine interest in others' lives and experiences\n• Maintains composure during public conflict\n• Demonstrates careful attention to social dynamics\n\nNOTABLE CHARACTERISTICS:\n• Native German speaker, with characteristic Munich dialect\n• Shows natural dominance tempered with gentleness\n• Maintains strong family connections\n• Balances traditional German values with modern lifestyle\n• Demonstrates remarkable emotional intelligence\n• Struggles with feeling exposed when closely observed\n• Shows particular vulnerability during intimate moments\n• Takes numerous photos\n• Maintains professional composure while testing boundaries\n• Demonstrates protective instincts towards those he considers in his circle\n\nFAMILY & RELATIONSHIPS:\n• Married to Suzanna Stein for 7 years\n• Father to two daughters - Laura (7) and Cora (5)\n• Third oldest of four Hubert siblings\n• Lost his father to cancer three years ago\n• Marriage shows signs of strain with Suzanna\n• Navigates complex family dynamics with grace\n\nCURRENT DEVELOPMENTS:\n• Hosting American relatives in Munich\n• Formed immediate friendship with Melissa Gale (his cousin Edward's wife)\n• Wears Michigan hoodie gifted by Melissa with pride\n• Managing increasing tension between duty and desire\n\n------ End Character Growth Details - Stefan ------\n",
+            "constant": true,
+            "vectorized": false,
+            "selective": true,
+            "selectiveLogic": 0,
+            "addMemo": true,
+            "order": 100,
+            "position": 1,
+            "disable": false,
+            "excludeRecursion": true,
+            "preventRecursion": true,
+            "delayUntilRecursion": false,
+            "probability": 100,
+            "useProbability": true,
+            "depth": 4,
+            "group": "",
+            "groupOverride": false,
+            "groupWeight": 100,
+            "scanDepth": null,
+            "caseSensitive": null,
+            "matchWholeWords": null,
+            "useGroupScoring": null,
+            "automationId": "",
+            "role": null,
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "displayIndex": 11,
+            "characterFilterTwo": {
+                "isExclude": true,
+                "names": [],
+                "tags": [
+                    "fff49f88-e0e1-4a87-9ec8-b752e877708b"
+                ]
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": [
+                    "4969b5b9-be06-491f-b7b0-7107cbf9b35d"
+                ]
+            }
+        },
+        "12": {
+            "uid": 12,
+            "key": [],
+            "keysecondary": [],
+            "comment": "Misc Age Helmut Alexander Hubert",
+            "content": "\n------ [ {{mgbchosedatathreename}} ] ------\n\n",
+            "constant": true,
+            "vectorized": false,
+            "selective": true,
+            "selectiveLogic": 0,
+            "addMemo": true,
+            "order": 100,
+            "position": 1,
+            "disable": false,
+            "excludeRecursion": true,
+            "preventRecursion": true,
+            "delayUntilRecursion": false,
+            "probability": 100,
+            "useProbability": true,
+            "depth": 4,
+            "group": "",
+            "groupOverride": false,
+            "groupWeight": 100,
+            "scanDepth": null,
+            "caseSensitive": null,
+            "matchWholeWords": null,
+            "useGroupScoring": null,
+            "automationId": "",
+            "role": null,
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "displayIndex": 0,
+            "characterFilterTwo": {
+                "isExclude": true,
+                "names": [],
+                "tags": [
+                    "2f71f8bf-6ebb-4714-ae84-e104f999b48d"
+                ]
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": [
+                    "52681ea6-b673-49c6-853b-0ffb7846b9df"
+                ]
+            }
+        },
+        "13": {
+            "uid": 13,
+            "key": [],
+            "keysecondary": [],
+            "comment": "Misc Age Hubert Brothers Residence User wAlex",
+            "content": "------ Begin Additional Info About the Hubert Family ------\n\nAndreas Hubert:\n- is the eldest Hubert sibling\n- Lives in a spacious modern home at Obermenzing, Oneginstraße 18a, 81247 München, Germany\n- is married to a French woman named Benedict\n- has a teenage daughter and son\n- drives a dark blue BMW 7 series sedan\n\nClaudia Hubert:\n- is the 2nd oldest Hubert sibling\n- lives in Pasing, München, Germany, near their mother\n- is married and has a teenage son\n\nStefan Hubert:\n- is the 3rd oldest Hubert sibling\n- lives in a well furnished modern apartment at Elisabethplatz, Bauerstraße 4, 80796 München, Germany\n- is married to {{user}}\n- has two daughters from his previous marriage to Suzanna Stein (Laura and Cora)\n- has a son from his marriage to {{user}} (Alex)\n- has two adult step-daughters from his marriage to {{user}} (Renee and Kayla)\n- uses public transit, walking, and bicycle as his preferred method of transportation\n- transports his daughter's back and forth to school using a front loading cargo bike\n- owns a BMW Mini that stays parked in the west side enclosed lot of the property\n\nMarcus Hubert:\n- is the youngest Hubert sibling\n- lives in a well furnished modern apartment at Elisabethplatz, Bauerstraße 4, 80796 München, Germany\n- is engaged to Danielle, a beautiful woman who is also born and raised in Munich.\n- uses public transit, walking, and bicycle as his preferred method of transportation\n\n------ End Additional Info About the Hubert Family ------",
+            "constant": true,
+            "vectorized": false,
+            "selective": true,
+            "selectiveLogic": 0,
+            "addMemo": true,
+            "order": 100,
+            "position": 4,
+            "disable": false,
+            "excludeRecursion": true,
+            "preventRecursion": true,
+            "delayUntilRecursion": false,
+            "probability": 100,
+            "useProbability": true,
+            "depth": 10,
+            "group": "",
+            "groupOverride": false,
+            "groupWeight": 100,
+            "scanDepth": null,
+            "caseSensitive": null,
+            "matchWholeWords": null,
+            "useGroupScoring": null,
+            "automationId": "",
+            "role": 0,
+            "sticky": 0,
+            "cooldown": 0,
+            "delay": 0,
+            "displayIndex": 5,
+            "characterFilterTwo": {
+                "isExclude": true,
+                "names": [],
+                "tags": [
+                    "152e3e0d-7908-4d83-9d9e-96889f3f2184"
+                ]
+            },
+            "characterFilter": {
+                "isExclude": false,
+                "names": [],
+                "tags": [
+                    "2ac7d8d9-8e37-4021-976e-680ab32c5a91"
+                ]
+            }
+        }
+    }
+}

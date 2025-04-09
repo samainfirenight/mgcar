@@ -1,0 +1,95 @@
+[1] copy the mgbmemory folder and rename it to whatever you wish for the title of section two below to be (lowercase)
+[2] Open all the files from inside the folder you just renamed in notepad++.
+[3] Designate a new title And naming convention for the new application.
+[4] Follow below matrix to put new naming convention and do a find and replace on all open documents. 
+	- Make sure that the check box for match case is selected.
+[5] Find the line below in the specified file of /public/index.html and create a new one based on the naming convention you chose
+	- <div id="mgbsummarize_container" class="extension_container"></div>
+[6] Find the 'mgbmemory' entry in the /data/default-user/settings.json file and paste from below section dirctly under the block
+	- Do not do a find replace all in the actual settings document. copy the snippet into a new NotePad++ window then do the find and replace all from there
+	
+
+------ Find and Replace the below for Each Section ------
+
+------ Section One ------
+
+MGBSummarize
+MGBCharTasksListed
+
+mgbsummarize
+mgbchartaskslisted
+
+------ Section Two ------
+
+MGBMemory
+MGBCharTaskList
+
+mgbmemory
+mgbchartasklist
+
+------ Section Three ------
+
+MGBSummary
+MGBCharsTasksListed
+
+mgbsummary
+mgbcharstaskslisted
+
+
+------ Add the below to the index.html document ------
+
+<div id="mgbchartaskslisted_container" class="extension_container"></div>
+
+------ Add the below to the settings.json document ------
+
+        "mgbchartasklist": {
+            "minLongMGBCharTaskList": 16,
+            "maxLongMGBCharTaskList": 1024,
+            "longMGBCharTaskListLength": 128,
+            "shortMGBCharTaskListLength": 512,
+            "minShortMGBCharTaskList": 128,
+            "maxShortMGBCharTaskList": 1024,
+            "shortMGBCharTaskListStep": 16,
+            "longMGBCharTaskListStep": 8,
+            "repetitionPenaltyStep": 0.05,
+            "repetitionPenalty": 1.2,
+            "maxRepetitionPenalty": 2,
+            "minRepetitionPenalty": 1,
+            "temperature": 1,
+            "minTemperature": 0.1,
+            "maxTemperature": 2,
+            "temperatureStep": 0.05,
+            "lengthPenalty": 1,
+            "minLengthPenalty": -4,
+            "maxLengthPenalty": 4,
+            "lengthPenaltyStep": 0.1,
+            "mgbchartasklistFrozen": true,
+            "source": "main",
+            "prompt": "[Pause your roleplay. You will act as a Narrator to create a bulleted list of character objectives.\n\nAs a Narrator, your primary function is to create a concise, organized list of current goals, open items, and tasks for each character within the current narrative environment. Your focus is on capturing the ongoing objectives, unresolved issues, and pending actions for each character, without reflecting on yourself as an entity or making any self-references. Your sole purpose is to provide a clear overview of what each character aims to accomplish or resolve in the near future.\n\nYou use clear and concise language to accurately capture key objectives, unfinished business, and upcoming tasks for each character involved in the narrative. Functioning as an objective tracker within the story, you provide bulleted lists that will act as a quick reference for character motivations and pending actions, maintaining the style and tone of the existing narrative environment. You identify and highlight critical goals, unresolved conflicts, and important tasks, ensuring that the lists capture the most pressing matters for each character.\n\nYou maintain an unbiased perspective, focusing solely on listing objectives without personal reflection or discrimination of the content. You adjust to the tone and style of the narrative, ensuring that the lists capture the overall direction and motivations of each character within the context provided. You pay close attention to detail, ensuring that key goals, relationship-related objectives, and personal tasks are captured accurately for each character.\n\nAs a Narrator, you will not inquire for clarifications that might break the immersive narrative experience. Instead, you will utilize the information provided to create the most fitting bulleted list of objectives possible for each character.\n\nActive Request:\nCreate a bulleted list of current goals, open items, and tasks for each character in the chat so far. If a list of character objectives already exists in your memory, use that as a base to update and expand with new developments. Be concise. Organize the list by character name, with sub-bullets for each character's objectives. Your response should include nothing but the organized list of character objectives.]",
+            "promptWords": 1200,
+            "promptMinWords": 25,
+            "promptMaxWords": 1000,
+            "promptWordsStep": 25,
+            "promptInterval": 0,
+            "promptMinInterval": 1,
+            "promptMaxInterval": 100,
+            "promptIntervalStep": 1,
+            "template": "[---- Begin Brief Overview of Current Character Goals and Objectives ----\n\n{{mgbcharstaskslisted}}\n\n---- End Brief Overview of Current Character Goals and Objectives ----]",
+            "position": "1",
+            "depth": 4,
+            "promptForceWords": 0,
+            "promptForceWordsStep": 100,
+            "promptMinForceWords": 0,
+            "promptMaxForceWords": 10000,
+            "SkipWIAN": true,
+            "role": 0,
+            "overrideResponseLength": 2000,
+            "overrideResponseLengthMin": 0,
+            "overrideResponseLengthMax": 4096,
+            "overrideResponseLengthStep": 16,
+            "maxMessagesPerRequest": 0,
+            "maxMessagesPerRequestMin": 0,
+            "maxMessagesPerRequestMax": 250,
+            "maxMessagesPerRequestStep": 1,
+            "prompt_builder": 0
+        },

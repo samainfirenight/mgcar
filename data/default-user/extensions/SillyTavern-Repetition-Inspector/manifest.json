@@ -1,0 +1,10 @@
+{
+    "display_name": "Repetition Inspector",
+    "js": "index.js",
+    "requires": [],
+    "optional": [],
+    "author": "bbonvi",
+    "homePage": "https://github.com/bbonvi/SillyTavern-Repetition-Inspector",
+    "version": "1.0.0",
+    "auto_update": false
+}

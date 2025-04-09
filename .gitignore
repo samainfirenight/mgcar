@@ -1,0 +1,12 @@
+/backups/
+/data/_uploads/
+/.github/
+/data/default-user/backups/
+data/Extension-EmojiPicker - Copy/old-git-file/
+data/Extension-EmojiPicker/old-git-file/
+dist/webpack/default-production/0.pack
+dist/webpack/default-production/index.pack
+dist/webpack/default-production/index.pack.old
+dist/webpack/default-production/0.pack
+dist/webpack/default-production/index.pack
+dist/webpack/default-production/index.pack.old

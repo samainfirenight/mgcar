@@ -1,0 +1,13 @@
+{
+    "display_name": "MGBCharTasksListed",
+    "loading_order": 60,
+    "requires": [],
+    "optional": [
+        "mgbchartaskslisted"
+    ],
+    "js": "index.js",
+    "css": "style.css",
+    "author": "Cohee#1207",
+    "version": "1.0.0",
+    "homePage": "https://github.com/SillyTavern/SillyTavern"
+}

@@ -1,0 +1,268 @@
+<div class="localtimeinresponse_settings">
+    <div class="inline-drawer">
+        <div class="inline-drawer-toggle inline-drawer-header">
+		<b>MGB Local Time In Response</b>
+            <div class="inline-drawer-icon fa-solid fa-circle-chevron-down down"></div>
+        </div>
+        <div class="inline-drawer-content">
+            <div class="flex-container flexFlowColumn">
+				<div class="flex-container marginTopBot5">
+					<div class="flex-container flex1 flexFlowColumn" title="Toggle Time - Char First Message">
+						<label for="localtimeinresponse_enabled">
+							<small data-i18n="MGBData2">Toggle Time Stamps in Response:</small>
+						</label>
+						<label class="checkbox_label" for="localtimeinresponse_enabled">
+							<input type="checkbox" id="localtimeinresponse_enabled" />
+							<span>Enabled</span>
+						</label>
+						
+						<label for="localtimeinresponse_mgbcharactergreetings">
+							<small data-i18n="MGBData3">Toggle Char First Messages:</small>
+						</label>
+						<label class="checkbox_label" for="localtimeinresponse_mgbcharactergreetings">
+							<input type="checkbox" id="localtimeinresponse_mgbcharactergreetings" />
+							<span>Enabled</span>
+						</label>						
+						
+					</div>
+					<div class="flex-container flex1 flexFlowColumn" title="Select the option to display a data set.">
+					
+						<label for="localtimeinresponse_fcTriggerSelect">
+							<small data-i18n="MGBData">Select To Chose which Data Bank:</small>
+						</label>
+						<select id="localtimeinresponse_fcTriggerSelect">
+							<option value="Data">--</option>
+							<option value="DataSetOne">DataSetOne</option>
+							<option value="DataSetTwo">DataSetTwo</option>
+							<option value="DataSetThree">DataSetThree</option>
+						</select>					
+					</div>
+				</div>
+				<div class="flex-container marginTopBot5">
+					<hr>
+					<div class="flex-container flex1 flexFlowColumn" title="What is Name of Data.">
+					<!-- Data One Block Set Column One -->
+						<label for="localtimeinresponse_chosedataonename" id="localtimeinresponse_chosedataonenamelabel" style="display: none;">
+							<small data-i18n="MGBDataOneName">Data Name: {{mgbchosedataXXname}}</small>
+						</label>
+						<input id="localtimeinresponse_chosedataonename" value="{{defaultSettings.chosedataonename}}" class="text_pole widthUnset" type="text" style="display: none;" />
+						<input id="localtimeinresponse_chosedatatwoname" value="{{defaultSettings.chosedatatwoname}}" class="text_pole widthUnset" type="text" style="display: none;" />
+						<input id="localtimeinresponse_chosedatathreename" value="{{defaultSettings.chosedatathreename}}" class="text_pole widthUnset" type="text" style="display: none;" />
+						<input id="localtimeinresponse_chosedatafourname" value="{{defaultSettings.chosedatafourname}}" class="text_pole widthUnset" type="text" style="display: none;" />
+						<input id="localtimeinresponse_chosedatafivename" value="{{defaultSettings.chosedatafivename}}" class="text_pole widthUnset" type="text" style="display: none;" />
+					<!-- Data Two Block Set Column One -->
+						<label for="localtimeinresponse_chosedataonenametwo" id="localtimeinresponse_chosedataonenametwolabel" style="display: none;">
+							<small data-i18n="MGBDataOneNametwo">Data Name: {{mgbchosedataXXnametwo}}</small>
+						</label>
+						<input id="localtimeinresponse_chosedataonenametwo" value="{{defaultSettings.chosedataonenametwo}}" class="text_pole widthUnset" type="text" style="display: none;" />
+						<input id="localtimeinresponse_chosedatatwonametwo" value="{{defaultSettings.chosedatatwonametwo}}" class="text_pole widthUnset" type="text" style="display: none;" />
+						<input id="localtimeinresponse_chosedatathreenametwo" value="{{defaultSettings.chosedatathreenametwo}}" class="text_pole widthUnset" type="text" style="display: none;" />
+						<input id="localtimeinresponse_chosedatafournametwo" value="{{defaultSettings.chosedatafournametwo}}" class="text_pole widthUnset" type="text" style="display: none;" />
+						<input id="localtimeinresponse_chosedatafivenametwo" value="{{defaultSettings.chosedatafivenametwo}}" class="text_pole widthUnset" type="text" style="display: none;" />
+					<!-- Data Three Block Set Column One -->
+						<label for="localtimeinresponse_chosedataonenamethree" id="localtimeinresponse_chosedataonenamethreelabel" style="display: none;">
+							<small data-i18n="MGBDataOneNamethree">Data Name: {{mgbchosedataXXnamethree}}</small>
+						</label>
+						<input id="localtimeinresponse_chosedataonenamethree" value="{{defaultSettings.chosedataonenamethree}}" class="text_pole widthUnset" type="text" style="display: none;" />
+						<input id="localtimeinresponse_chosedatatwonamethree" value="{{defaultSettings.chosedatatwonamethree}}" class="text_pole widthUnset" type="text" style="display: none;" />
+						<input id="localtimeinresponse_chosedatathreenamethree" value="{{defaultSettings.chosedatathreenamethree}}" class="text_pole widthUnset" type="text" style="display: none;" />
+						<input id="localtimeinresponse_chosedatafournamethree" value="{{defaultSettings.chosedatafournamethree}}" class="text_pole widthUnset" type="text" style="display: none;" />
+						<input id="localtimeinresponse_chosedatafivenamethree" value="{{defaultSettings.chosedatafivenamethree}}" class="text_pole widthUnset" type="text" style="display: none;" />
+					<!-- Data blocks Column One End -->		
+					</div>
+					
+					<div class="flex-container flex1 flexFlowColumn" title="What is Data of Data.">	
+					<!-- Data One Block Set Column Two -->	
+						<label for="localtimeinresponse_chosedataonedata" id="localtimeinresponse_chosedataonedatalabel" style="display: none;">
+							<small data-i18n="MGBDataOneData">Data Data: {{mgbchosedataXXdata}}</small>
+						</label>
+					   <input id="localtimeinresponse_chosedataonedata" value="{{defaultSettings.chosedataonedata}}" class="text_pole widthUnset" type="text" style="display: none;" />
+					   <input id="localtimeinresponse_chosedatatwodata" value="{{defaultSettings.chosedatatwodata}}" class="text_pole widthUnset" type="text" style="display: none;" />
+					   <input id="localtimeinresponse_chosedatathreedata" value="{{defaultSettings.chosedatathreedata}}" class="text_pole widthUnset" type="text" style="display: none;" />
+					   <input id="localtimeinresponse_chosedatafourdata" value="{{defaultSettings.chosedatafourdata}}" class="text_pole widthUnset" type="text" style="display: none;" />
+					   <input id="localtimeinresponse_chosedatafivedata" value="{{defaultSettings.chosedatafivedata}}" class="text_pole widthUnset" type="text" style="display: none;" />
+					<!-- Data Two Block Set Column Two -->
+						<label for="localtimeinresponse_chosedataonedatatwo" id="localtimeinresponse_chosedataonedatatwolabel" style="display: none;">
+							<small data-i18n="MGBDataOneDatatwo">Data Data: {{mgbchosedataXXdatatwo}}</small>
+						</label>
+					   <input id="localtimeinresponse_chosedataonedatatwo" value="{{defaultSettings.chosedataonedatatwo}}" class="text_pole widthUnset" type="text" style="display: none;" />
+					   <input id="localtimeinresponse_chosedatatwodatatwo" value="{{defaultSettings.chosedatatwodatatwo}}" class="text_pole widthUnset" type="text" style="display: none;" />
+					   <input id="localtimeinresponse_chosedatathreedatatwo" value="{{defaultSettings.chosedatathreedatatwo}}" class="text_pole widthUnset" type="text" style="display: none;" />
+					   <input id="localtimeinresponse_chosedatafourdatatwo" value="{{defaultSettings.chosedatafourdatatwo}}" class="text_pole widthUnset" type="text" style="display: none;" />
+					   <input id="localtimeinresponse_chosedatafivedatatwo" value="{{defaultSettings.chosedatafivedatatwo}}" class="text_pole widthUnset" type="text" style="display: none;" />
+					<!-- Data Three Block Set Column Two -->	
+						<label for="localtimeinresponse_chosedataonedatathree" id="localtimeinresponse_chosedataonedatathreelabel" style="display: none;">
+							<small data-i18n="MGBDataOneDatathree">Data Data: {{mgbchosedataXXdatathree}}</small>
+						</label>
+					   <input id="localtimeinresponse_chosedataonedatathree" value="{{defaultSettings.chosedataonedatathree}}" class="text_pole widthUnset" type="text" style="display: none;" />
+					   <input id="localtimeinresponse_chosedatatwodatathree" value="{{defaultSettings.chosedatatwodatathree}}" class="text_pole widthUnset" type="text" style="display: none;" />
+					   <input id="localtimeinresponse_chosedatathreedatathree" value="{{defaultSettings.chosedatathreedatathree}}" class="text_pole widthUnset" type="text" style="display: none;" />
+					   <input id="localtimeinresponse_chosedatafourdatathree" value="{{defaultSettings.chosedatafourdatathree}}" class="text_pole widthUnset" type="text" style="display: none;" />
+					   <input id="localtimeinresponse_chosedatafivedatathree" value="{{defaultSettings.chosedatafivedatathree}}" class="text_pole widthUnset" type="text" style="display: none;" />
+					<!-- Data blocks Column Two End -->					   
+					   <hr>
+					</div>
+				</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- The below code goes in the JQuery portion of the index.js code file Local Time In Response -->
+
+<!-- 	$(document).ready(function () {
+        $('#localtimeinresponse_fcTriggerSelect').change(function () {
+            if ($('#localtimeinresponse_fcTriggerSelect').val() == 'DataSetOne') {
+				$('#localtimeinresponse_chosedataonenamelabel').show();
+				$('#localtimeinresponse_chosedataonedatalabel').show();
+                $('#localtimeinresponse_chosedataonedata').show();
+				$('#localtimeinresponse_chosedataonename').show();
+				$('#localtimeinresponse_chosedatatwodata').show();
+				$('#localtimeinresponse_chosedatatwoname').show(); 
+				$('#localtimeinresponse_chosedatathreedata').show();
+				$('#localtimeinresponse_chosedatathreename').show();
+				$('#localtimeinresponse_chosedatafourdata').show();
+				$('#localtimeinresponse_chosedatafourname').show();
+				$('#localtimeinresponse_chosedatafivedata').show();
+				$('#localtimeinresponse_chosedatafivename').show();
+				$('#localtimeinresponse_chosedataonenametwolabel').hide();
+				$('#localtimeinresponse_chosedataonedatatwolabel').hide();				
+                $('#localtimeinresponse_chosedataonedatatwo').hide();
+				$('#localtimeinresponse_chosedataonenametwo').hide();
+				$('#localtimeinresponse_chosedatatwodatatwo').hide();
+				$('#localtimeinresponse_chosedatatwonametwo').hide(); 
+				$('#localtimeinresponse_chosedatathreedatatwo').hide();
+				$('#localtimeinresponse_chosedatathreenametwo').hide();
+				$('#localtimeinresponse_chosedatafourdatatwo').hide();
+				$('#localtimeinresponse_chosedatafournametwo').hide();
+				$('#localtimeinresponse_chosedatafivedatatwo').hide();
+				$('#localtimeinresponse_chosedatafivenametwo').hide();
+				$('#localtimeinresponse_chosedataonenamethreelabel').hide();
+				$('#localtimeinresponse_chosedataonedatathreelabel').hide();
+                $('#localtimeinresponse_chosedataonedatathree').hide();
+				$('#localtimeinresponse_chosedataonenamethree').hide();
+				$('#localtimeinresponse_chosedatatwodatathree').hide();
+				$('#localtimeinresponse_chosedatatwonamethree').hide(); 
+				$('#localtimeinresponse_chosedatathreedatathree').hide();
+				$('#localtimeinresponse_chosedatathreenamethree').hide();
+				$('#localtimeinresponse_chosedatafourdatathree').hide();
+				$('#localtimeinresponse_chosedatafournamethree').hide();
+				$('#localtimeinresponse_chosedatafivedatathree').hide();
+				$('#localtimeinresponse_chosedatafivenamethree').hide();				
+            } else if ($('#localtimeinresponse_fcTriggerSelect').val() == 'DataSetTwo') {
+				$('#localtimeinresponse_chosedataonenamelabel').hide();
+				$('#localtimeinresponse_chosedataonedatalabel').hide();
+                $('#localtimeinresponse_chosedataonedata').hide();
+				$('#localtimeinresponse_chosedataonename').hide();
+				$('#localtimeinresponse_chosedatatwodata').hide();
+				$('#localtimeinresponse_chosedatatwoname').hide(); 
+				$('#localtimeinresponse_chosedatathreedata').hide();
+				$('#localtimeinresponse_chosedatathreename').hide();
+				$('#localtimeinresponse_chosedatafourdata').hide();
+				$('#localtimeinresponse_chosedatafourname').hide();
+				$('#localtimeinresponse_chosedatafivedata').hide();
+				$('#localtimeinresponse_chosedatafivename').hide();
+				$('#localtimeinresponse_chosedataonenametwolabel').show();
+				$('#localtimeinresponse_chosedataonedatatwolabel').show();					
+                $('#localtimeinresponse_chosedataonedatatwo').show();
+				$('#localtimeinresponse_chosedataonenametwo').show();
+				$('#localtimeinresponse_chosedatatwodatatwo').show();
+				$('#localtimeinresponse_chosedatatwonametwo').show(); 
+				$('#localtimeinresponse_chosedatathreedatatwo').show();
+				$('#localtimeinresponse_chosedatathreenametwo').show();
+				$('#localtimeinresponse_chosedatafourdatatwo').show();
+				$('#localtimeinresponse_chosedatafournametwo').show();
+				$('#localtimeinresponse_chosedatafivedatatwo').show();
+				$('#localtimeinresponse_chosedatafivenametwo').show();
+				$('#localtimeinresponse_chosedataonenamethreelabel').hide();
+				$('#localtimeinresponse_chosedataonedatathreelabel').hide();
+                $('#localtimeinresponse_chosedataonedatathree').hide();
+				$('#localtimeinresponse_chosedataonenamethree').hide();
+				$('#localtimeinresponse_chosedatatwodatathree').hide();
+				$('#localtimeinresponse_chosedatatwonamethree').hide(); 
+				$('#localtimeinresponse_chosedatathreedatathree').hide();
+				$('#localtimeinresponse_chosedatathreenamethree').hide();
+				$('#localtimeinresponse_chosedatafourdatathree').hide();
+				$('#localtimeinresponse_chosedatafournamethree').hide();
+				$('#localtimeinresponse_chosedatafivedatathree').hide();
+				$('#localtimeinresponse_chosedatafivenamethree').hide();				
+            } else if ($('#localtimeinresponse_fcTriggerSelect').val() == 'DataSetThree') {		
+				$('#localtimeinresponse_chosedataonenamelabel').hide();
+				$('#localtimeinresponse_chosedataonedatalabel').hide();
+                $('#localtimeinresponse_chosedataonedata').hide();
+				$('#localtimeinresponse_chosedataonename').hide();
+				$('#localtimeinresponse_chosedatatwodata').hide();
+				$('#localtimeinresponse_chosedatatwoname').hide(); 
+				$('#localtimeinresponse_chosedatathreedata').hide();
+				$('#localtimeinresponse_chosedatathreename').hide();
+				$('#localtimeinresponse_chosedatafourdata').hide();
+				$('#localtimeinresponse_chosedatafourname').hide();
+				$('#localtimeinresponse_chosedatafivedata').hide();
+				$('#localtimeinresponse_chosedatafivename').hide();
+				$('#localtimeinresponse_chosedataonenametwolabel').hide();
+				$('#localtimeinresponse_chosedataonedatatwolabel').hide();				
+                $('#localtimeinresponse_chosedataonedatatwo').hide();
+				$('#localtimeinresponse_chosedataonenametwo').hide();
+				$('#localtimeinresponse_chosedatatwodatatwo').hide();
+				$('#localtimeinresponse_chosedatatwonametwo').hide(); 
+				$('#localtimeinresponse_chosedatathreedatatwo').hide();
+				$('#localtimeinresponse_chosedatathreenametwo').hide();
+				$('#localtimeinresponse_chosedatafourdatatwo').hide();
+				$('#localtimeinresponse_chosedatafournametwo').hide();
+				$('#localtimeinresponse_chosedatafivedatatwo').hide();
+				$('#localtimeinresponse_chosedatafivenametwo').hide();
+				$('#localtimeinresponse_chosedataonenamethreelabel').show();
+				$('#localtimeinresponse_chosedataonedatathreelabel').show();
+                $('#localtimeinresponse_chosedataonedatathree').show();
+				$('#localtimeinresponse_chosedataonenamethree').show();
+				$('#localtimeinresponse_chosedatatwodatathree').show();
+				$('#localtimeinresponse_chosedatatwonamethree').show(); 
+				$('#localtimeinresponse_chosedatathreedatathree').show();
+				$('#localtimeinresponse_chosedatathreenamethree').show();
+				$('#localtimeinresponse_chosedatafourdatathree').show();
+				$('#localtimeinresponse_chosedatafournamethree').show();
+				$('#localtimeinresponse_chosedatafivedatathree').show();
+				$('#localtimeinresponse_chosedatafivenamethree').show();				
+			} else {
+				console.log('No Data Chosen in MGB Function Trigger Phrase Menu Select. Restoring Default.');
+				$('#localtimeinresponse_chosedataonenamelabel').show();
+				$('#localtimeinresponse_chosedataonedatalabel').show();				
+                $('#localtimeinresponse_chosedataonedata').show();
+				$('#localtimeinresponse_chosedataonename').show();
+				$('#localtimeinresponse_chosedatatwodata').show();
+				$('#localtimeinresponse_chosedatatwoname').show(); 
+				$('#localtimeinresponse_chosedatathreedata').show();
+				$('#localtimeinresponse_chosedatathreename').show();
+				$('#localtimeinresponse_chosedatafourdata').show();
+				$('#localtimeinresponse_chosedatafourname').show();
+				$('#localtimeinresponse_chosedatafivedata').show();
+				$('#localtimeinresponse_chosedatafivename').show();
+				$('#localtimeinresponse_chosedataonenametwolabel').hide();
+				$('#localtimeinresponse_chosedataonedatatwolabel').hide();					
+                $('#localtimeinresponse_chosedataonedatatwo').hide();
+				$('#localtimeinresponse_chosedataonenametwo').hide();
+				$('#localtimeinresponse_chosedatatwodatatwo').hide();
+				$('#localtimeinresponse_chosedatatwonametwo').hide(); 
+				$('#localtimeinresponse_chosedatathreedatatwo').hide();
+				$('#localtimeinresponse_chosedatathreenametwo').hide();
+				$('#localtimeinresponse_chosedatafourdatatwo').hide();
+				$('#localtimeinresponse_chosedatafournametwo').hide();
+				$('#localtimeinresponse_chosedatafivedatatwo').hide();
+				$('#localtimeinresponse_chosedatafivenametwo').hide();
+				$('#localtimeinresponse_chosedataonenamethreelabel').hide();
+				$('#localtimeinresponse_chosedataonedatathreelabel').hide();
+                $('#localtimeinresponse_chosedataonedatathree').hide();
+				$('#localtimeinresponse_chosedataonenamethree').hide();
+				$('#localtimeinresponse_chosedatatwodatathree').hide();
+				$('#localtimeinresponse_chosedatatwonamethree').hide(); 
+				$('#localtimeinresponse_chosedatathreedatathree').hide();
+				$('#localtimeinresponse_chosedatathreenamethree').hide();
+				$('#localtimeinresponse_chosedatafourdatathree').hide();
+				$('#localtimeinresponse_chosedatafournamethree').hide();
+				$('#localtimeinresponse_chosedatafivedatathree').hide();
+				$('#localtimeinresponse_chosedatafivenamethree').hide();				
+			}
+        });
+    });  -->
+	

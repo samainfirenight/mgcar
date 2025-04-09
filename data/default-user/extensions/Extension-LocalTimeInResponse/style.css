@@ -1,0 +1,37 @@
+#localtimeinresponse_settings {
+    display: flex;
+    flex-direction: column;
+}
+
+#localtimeinresponse_settings textarea {
+    font-size: calc(var(--mainFontSize) * 0.9);
+    line-height: 1.2;
+}
+
+label[for="localtimeinresponse_frozen"],
+label[for="localtimeinresponse_skipWIAN"] {
+    display: flex;
+    align-items: center;
+    margin: 0 !important;
+}
+
+label[for="localtimeinresponse_frozen"] input {
+    margin-right: 10px;
+}
+
+.localtimeinresponse_contents_controls {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.localtimeinresponse_disabled_hint {
+    margin-left: 2px;
+}
+
+#localtimeinresponseSettingsBlock {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
